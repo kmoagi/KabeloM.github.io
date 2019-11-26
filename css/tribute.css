@@ -4,15 +4,12 @@
 
 
 html,body{
-  background-image: url('https://i.postimg.cc/HW2hLshn/background.jpg');
-  background-repeat:no-repeat ;
-  backround-width:1000px auto;
-  backround-margin:1000px auto;
+
   background-size: 4000px auto;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   text-align:center;
   min-width:260px;
-  color:#00000;
+  color:#0000;
 }
 
 
@@ -20,7 +17,8 @@ html,body{
 	box-sizing: border-box;
 }
 body {
-	font-family: 'Montserrat', sans-serif;
+
+  font-family: 'Montserrat', sans-serif;
 	line-height: 1.6;
 	margin: 0;
 	min-height: 100vh;
@@ -41,13 +39,37 @@ a {
 	text-decoration: none;
 }
 
+
+.main-icon{
+  position: relative;
+  right:700px;
+  border-radius: 40px;
+}
+
+
 .logo {
-	margin: 2px;
-	font-size: 2.1em;
+  margin-bottom: 5px;
+	font-size: 6.1em;
   text-decoration:none;
-  font-color: #000000;
+  margin-top: -20px;
+
 
 }
+
+
+header .logo a {
+   font-family: "Lato";
+   color: #282828;
+   font-family: 'Lato', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Roboto', sans-serif;
+   width: auto;
+
+
+}
+
+
+
   .logo a:hover{
     color: #004f92;
   }
@@ -59,14 +81,18 @@ a {
 .main-nav {
 	margin-top: 0px auto;
 
+
 }
+
+
 .logo a,
 .main-nav a {
 	padding: 10px;
+  margin-top: 20px;
 	text-transform: uppercase;
 	text-align: center;
 	display: inline block;
-  font-family:'Cutive Mono';
+  font-family:""
   color: #ffffff;
 
 }
@@ -74,6 +100,7 @@ a {
 
 .main-nav a {
 	font-size: 1.5em;
+  color: #000000;
 
 
 }
@@ -83,24 +110,80 @@ a {
 }
 
 .header {
-	padding-top: .5em;
+
+  padding-top: 1.5em;
 	padding-bottom: .5em;
-	border: 1px solid #a2a2a2;
-	background-color: rgb(36,36,40,0.3);
-	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+  background-image: url("https://i.postimg.cc/L5dk9zqq/geo-backround-hd.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
 	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
-	-webkit-border-radius: 5px;
+	-webkit-border-radius: 15px;
 	-moz-border-radius: 5px;
-	border-radius: 5px;
+	border-radius: 0px;
 }
 
 
-/* =================================
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
 
-==================================== */
+}
 
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
 
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+  padding-top: 40px;
+  padding-left: 25px;
+}
+
+.slide, slide-number, h1 {
+  position: relative;
+  color: #ffffff;
+  padding-right: 25px;
+
+}
+
+.slide:nth-child(1) {
+  background:rgba(0,0,0,0.75);
+}
+
+.slide:nth-child(2) {
+  background: rgba(0,0,0,0.75);
+}
+
+.slide:nth-child(3) {
+  background: rgba(0,0,0,0.75);
+}
+
+.slide:nth-child(4) {
+  background:rgba(0,0,0,0.75);
+}
+
+.slide-number {
+  color: #000;
+  text-align: center;
+  font-size: 10em;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
 
 
 @media (min-width: 769px) {
@@ -129,44 +212,42 @@ a {
 }
 
 
+
+
 #main{
-  margin:50px auto;
-  padding:15px;
-  border:2px solid white;
-  border-radius:5px;
-  background: rgb(255,255,255,0.4);
+  margin:10px auto;
+  padding-top:20px;
+  width: 70%;
+  border:2px solid #1af2ff ;
+  border-radius:15px;
+  position: relative;
+  top:40px;
+  background: linear-gradient(to top, #36eaff, #ffffff);
 }
 
-main title, h1{
+#main title, h1{
       text-decoration:none;
-      font-family: sans-serif;
-      font-size:45px;
-      color:#000000;
+      font-family: 'Dancing Script', cursive;
+      font-weight: bold;
+      font-size:50px;
+      color:#8aaffb;
 }
 
- .title, h2 {
-    font-size:17px;
-    color:#000000;
+  h2 {
+    font-size:18px;
+    color:#ffffff;
+
+}
+
+
+ .img-circle {
+    border-radius: 10px;
+    size:auto;
+
 
 
 }
 
-img{
-  max-width: 100% ;
-  display: block;
-  height: 480px auto;
-  margin:  auto;
-  border-radius:30px;
-  padding-top:11px;
-
-}
-  #img-div{
-  margin:-5px;
-  margin-top:20px;
-  width:100%;
-  border:5px solid white;
-
-}
 #img-caption{
   margin:1px;
   color:#000000;
@@ -175,19 +256,25 @@ img{
   font-family: 'Dancing Script''Bitter';
 }
 
-#slideshow {
+
+/*
+main-content, img {
   font-family: Open Sans, sans-serif;
   margin:50px;
-  margin-left:80px;
-  margin-bottom: 5px;
+  margin-left:100px;
+  margin-bottom: 15px;
   margin-top:10px;
-  overflow: hidden;
+  left:-50px;
   position:  relative;
-  width: 1000px auto;
-  height: 600px;
-  padding-right:1125px auto;
+  width: 700px auto;
+  height: 400px auto;
+  size: 80%;
+
+
 
 }
+*/
+
 figure, figcaption {
   position: absolute;
 }
@@ -206,7 +293,7 @@ figure:nth-child(4) {
 figcaption {
   background: rgba(0,0,0,0.5);
   color: #fff;
-  padding: 0 10px;
+  padding: 0 0px;
   bottom: 0;
   height: 80px;
   width: 100%;
@@ -233,7 +320,7 @@ figcaption {
 
 #headline{
    background-color: rgb(255,255,255,0.2);
-   margin-top:-40px;
+   margin-top:40px;
    text-align:center;
    font-size:25px;
    border-radius:10px;
@@ -254,19 +341,39 @@ headline, h5 {
 
 }
 
-#more {display: none;
-       color:#000000;
+headline, p
+ {
+   color:#ffffff;
+   font-size:15px;
+
 }
+#more {
+       display: none;
+       color:#000000;
+       font-size:15px;
+
+}
+
+
 
 button {
    margin:10px;
    padding:0px;
    border-radius:0.5px;
+   font-style: italic;
+   color: #000000;
 
 }
 
+button #myBtn {
+   color: #000000;
+   background-color: #36eaff;
+
+}
+
+
 div.container{
-      margin:-120px;
+      margin:-220px;
       pading-top:20px;
       width:80px;
 

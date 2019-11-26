@@ -1,10 +1,4 @@
 
-const projectName = 'tribute-page';
-localStorage.setItem('example_project', 'Tribute Page');
-
-const projectName = 'tribute-page';
-localStorage.setItem('example_project', 'Tribute Page');
-
 function myFunction() {
   var dots = document.getElementById("dots");
   var moreText = document.getElementById("more");
@@ -14,7 +8,8 @@ function myFunction() {
     dots.style.display = "inline";
     btnText.innerHTML = "Read more";
     moreText.style.display = "none";
-  } else {
+  }
+  else {
     dots.style.display = "none";
     btnText.innerHTML = "Read less";
     moreText.style.display = "inline";
