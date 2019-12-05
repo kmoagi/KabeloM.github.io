@@ -8,8 +8,9 @@ html,body{
   background-size: 4000px auto;
   font-family:"Trebuchet MS", Helvetica, sans-serif;
   text-align:center;
-  min-width:260px;
+  min-width:740px ;
   color:#0000;
+  width:100%;
 }
 
 
@@ -270,9 +271,6 @@ main-content, img {
   width: 700px auto;
   height: 400px auto;
   size: 80%;
-
-
-
 }
 */
 
